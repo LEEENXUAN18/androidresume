@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEBCD"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Page Header -->
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDUCATION"
+        android:textSize="24sp"
+        android:textColor="#1E1E1E"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="13dp"/>
+
+
+    <TextView
+        android:id="@+id/Diploma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- SEBERANG PERAI POLYTECHNIC"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/Diploma1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:justificationMode="inter_word"
+        android:text="Diploma in Information Tehnology (Software)\n2023 - CURRENT \nCGPA 3.80+"
+        android:textSize="15sp"
+        android:textColor="#333333"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/Diploma" />
+
+
+    <TextView
+        android:id="@+id/SMK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n- SMK CHERAS PERDANA(CP) "
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/SMK1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:justificationMode="inter_word"
+        android:text="2017 - 2021 SPM"
+        android:textSize="15sp"
+        android:textColor="#333333"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/SMK"
+        android:layout_marginBottom="16dp"/>
+
+
+
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LANGUAGE"
+        android:textSize="24sp"
+        android:textColor="#1E1E1E"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="13dp"/>
+
+    <TextView
+        android:id="@+id/Language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mandarin | Bahasa Melayu | English | Cantonese \n"
+        android:textSize="17sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TECHNICAL SKILLS"
+        android:textSize="24sp"
+        android:textColor="#1E1E1E"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="13dp"/>
+
+
+    <TextView
+        android:id="@+id/Technical1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- HTML, CSS, JAVASCRIPT, C++,XAMPP , Java \n- Adobe Photoshop, Lightroom, Premiere Pro\n"
+        android:textSize="17sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentStart="true" />
+
+
+
+    <TextView
+        android:id="@+id/Text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CERTIFICATIONS"
+        android:textSize="24sp"
+        android:textColor="#1E1E1E"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="13dp"/>
+
+    <TextView
+        android:id="@+id/Certifications1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Head of Department Award               2023/2024 \n- Head of Department Award               2022/2023"
+        android:textSize="17sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Page 1"
+        android:textColor="#000000"
+        android:background="#DEB887"
+        android:layout_marginBottom="8dp"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#DEB887"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Go to Page 3"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

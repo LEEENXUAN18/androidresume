@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F7FA"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="EXTRACURRICULAR ACTIVITIES"
+        android:textSize="22sp"
+        android:textColor="#1E1E1E"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="13dp"/>
+
+    <TextView
+        android:id="@+id/job_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Merdeka Poster Design : won 2nd place                    AUG 2023\nMerdeka Video Production : won 3rd place               AUG 2023\nTeam Video Editing : 3rd place in class                 ARPRL 2023\n Library Volunteer : Participated library activities      FEB 2023"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/merdeka" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WORK  EXPERIENCE"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/job_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Promoter / Event Crew"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="3dp" />
+
+    <TextView
+        android:id="@+id/job_title5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Worked at expos selling machines, as well as at food events and concerts , where I enhanced my teamwork, communication and customer service skills by addressing customer needs and providing tailored recommendations, experience valuable."
+        android:textSize="13sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="17dp" />
+
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REFERENCE"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="6dp" />
+
+
+    <TextView
+        android:id="@+id/job_title6"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="left"
+        android:text="Name : Puan Ezzatus Syima BT.Azizian \nDesignation : Academic Advisor \nInstitution : Politeknik Seberang Perai \nMobile : 016 682 5287 \nEmail : ezza@psp.edu.my"
+        android:textColor="#555555"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Page 2"
+        android:textColor="#000000"
+        android:background="#87CEEB"
+        android:layout_marginBottom="8dp"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#87CEEB"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Go to Page 4"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

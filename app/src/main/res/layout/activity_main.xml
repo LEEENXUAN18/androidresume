@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TextResume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:text="RESUME"
+        android:textColor="#1E1E1E"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+    <ImageView
+        android:id="@+id/ImageLee"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:src="@drawable/leeimage" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEE EN XUAN"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/Department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT STUDENT (SOFTWARE)"
+        android:textSize="18sp"
+        android:textColor="#555555"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/Personal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birth         | 18 AUG 2024\nPhone      | 0122929312\nEmail       | enxuan18@gmail.com\nAddress  | Cheras Selangor, Kuala Lumpur"
+        android:textSize="15sp"
+        android:textColor="#555555"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp" />
+
+
+    <TextView
+        android:id="@+id/Aboutme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="I am a student of Information Technology (Software) with a strong passion for design, seeking a design-focused position where I can leverage my creativity and technical skills to contribute to impactful projects. Eager to embrace challenges, continuously learn, and gain diverse professional experience in a dynamic IT environment."
+        android:textColor="#333333"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="#708090"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Go to Page 2"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
